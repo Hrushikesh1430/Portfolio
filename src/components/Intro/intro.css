@@ -121,7 +121,7 @@
     .intro-main {
         flex-direction: column;
         gap:20px;
-        height:100vh;
+        height:100%;
     }
     .wrapper-left{
         padding: 45px 10px;
