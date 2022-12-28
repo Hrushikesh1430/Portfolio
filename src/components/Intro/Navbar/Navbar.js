@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import ReactDOM from "react-dom/client";
 import { Link } from "react-router-dom";
 // import { useEffect, useState } from "react";
 const Navbar = () => {
