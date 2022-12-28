@@ -1,0 +1,144 @@
+.contact{
+    height: 100vh;
+    position: relative;
+    padding: 10px 90px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.contact .contact-back{
+    width: 15px;
+    height:100%;
+    background-color: #59b256;
+    left:0;
+    position: absolute;
+}
+.contact .contact_container{
+    display: flex;
+    padding:10px;
+}
+.contact .content-left{
+    flex: 1;
+}
+.contact .content-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact .contact-descrip{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact .contact-title{
+    font-size:60px;
+    width: 80%;
+}
+.contact .info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    width:70%;
+
+}
+.contact .icon{
+    width:30px;
+    height:30px;
+    margin-right: 20px;
+}
+.contact form{
+    margin-top:20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.contact input{
+    width:90%;
+    height:50px;
+    border:none;
+    border-bottom: 1px solid black;
+    margin :10px 0px;
+    font-size: 14px;
+    padding: 10px;
+    outline: 0px;
+}
+.contact input:focus{
+    box-shadow:0 0 5px 1px #59b256;
+    border:1px solid #59b256;
+}
+
+.contact textarea{
+    width:90%;
+    margin :10px 0px;
+    font-size: 14px;
+    padding: 10px;
+    outline: 0px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.contact textarea :focus{
+    box-shadow:0 0 5px 1px #59b256;
+    border:1px solid #59b256;
+}
+
+.contact button{
+    border: none;
+    background-color: #59b256;
+    padding:15px;
+    color:#ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    width:100px;
+    border-radius: 5px;
+    margin:20px 0px;
+}
+.email-success{
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-width:1020px){
+    .contact {
+       
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .contact .contact_container{
+        flex-direction: column;
+    }
+    .contact .contact-back{
+       display: none;
+    }
+    .contact-title{
+        font-size: 50px;
+    }
+    .contact .contact-title{
+        font-size:50px;
+        width: 100%
+    }
+    .contact-info{
+        text-align: center;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .contact .info-item{
+        margin: 40px 0px;
+    }
+    .contact .icon{
+        width:30px;
+        height:30px;
+        margin-right: 10px;
+        
+    }
+}
