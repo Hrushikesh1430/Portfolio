@@ -16,22 +16,30 @@ const About = () => {
           </div>
         </div>
         <div className={styles.about_right}>
-          <h1 className={styles.about_title}>
-            Something here that describes me and the reader sayes yaaaaaa
-          </h1>
+          <div className={styles.title_container}>
+            <h1 className={styles.about_title}>Namaskar </h1>
+            <img
+              src="/assets/images/folded-hands.png"
+              alt="greeting"
+              className={styles.foldedhands}
+            ></img>
+          </div>
+
           <p className={styles.about_sub}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            My name is Hrushikesh and I create websites that enhances user
+            experience. I believe that websites are a work of art and I am an
+            artist contributing my perspective towards it.
           </p>
           <p className={styles.about_desc}>
-            t has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            Websites fascinated me since my childhood and my curiosity about the
+            functioning of websites lead me to the path of web development. When
+            I see my work being used by users in the real world it gives me
+            immense pleasure. Every day there is a new challenge that helps me
+            learn new things, understand more about websites and that keeps me
+            going. I have worked in various domains like blogging webpage,
+            commercial websites for personal and professional use, BFSI sector
+            and worked with the clients to create dynamic websites that
+            fullfills their requirement.
           </p>
         </div>
       </div>
