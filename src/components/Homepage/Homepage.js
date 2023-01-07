@@ -9,7 +9,6 @@ const Homepage = () => {
     <React.Fragment>
       <Intro />
       <About />
-      <ProjectList />
       <Contact />
     </React.Fragment>
   );
