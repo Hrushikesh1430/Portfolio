@@ -55,20 +55,28 @@ export const projects = [
     img: "emoji.png",
     link: "https://eu208y.csb.app/",
     title: "Emoji to Text Converter App",
-    source: "https://codesandbox.io/s/eu208y",
+    source: "https://github.com/Hrushikesh1430/Mark-8-Emoticon-Interpreter-App",
   },
   {
     id: 9,
     img: "bollywood.png",
     link: "https://b7mifk.csb.app/",
     title: "Bollywood Movie Recommender App",
-    source: "https://codesandbox.io/s/b7mifk",
+    source:
+      "https://github.com/Hrushikesh1430/Mark-9-Bollywood-Movie-Recommender",
   },
   {
     id: 10,
     img: "friends.png",
-    link: "https://replit.com/@HrushikeshTawde/MarkOneProjectFriends?v=1",
+    link: "https://replit.com/@HrushikeshTawde/MarkOneProjectFriends?embed=true",
     title: "Friends Quiz App",
-    source: "https://replit.com/@HrushikeshTawde/MarkOneProjectFriends?v=1",
+    source: "https://github.com/Hrushikesh1430/Neog_MarkTwo_Project_Friends",
+  },
+  {
+    id: 11,
+    img: "friends.png",
+    link: "https://replit.com/@HrushikeshTawde/MarkOneDoyouknowme?embed=true",
+    title: "Do you know me Quiz App",
+    source: "https://github.com/Hrushikesh1430/MarkOne_Do_you_know_me",
   },
 ];
