@@ -1,8 +1,7 @@
 .intro-main {
   display: flex;
   height: 100vh;
-  background-color: #74febd;
-  color: #0172af;
+  background-color: antiquewhite;
 }
 .intro-left {
   flex: 1;

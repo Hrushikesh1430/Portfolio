@@ -18,21 +18,15 @@ const ProjectPage = () => {
                 <p className="project-page-project-title">{item.title}</p>
                 <Project key={index} img={item.img} href={item.link}></Project>
                 <div className="project-page-links">
-                  <button
-                    className="live-project-button"
-                    onClick={() => {
-                      window.location.href = item.link;
-                    }}
-                  >
-                    <a href={item.link}>Live Project</a>
+                  <button className="live-project-button">
+                    <a href={item.link} target="_blank" rel="noreferrer">
+                      Live Project
+                    </a>
                   </button>
-                  <button
-                    className="live-project-button"
-                    onClick={() => {
-                      window.location.href = item.link;
-                    }}
-                  >
-                    <a href={item.source}>View Source code</a>
+                  <button className="live-project-button">
+                    <a href={item.source} target="_blank" rel="noreferrer">
+                      View Source code
+                    </a>
                   </button>
                 </div>
               </div>
