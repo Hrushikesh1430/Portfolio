@@ -74,7 +74,7 @@ export const projects = [
   },
   {
     id: 11,
-    img: "friends.png",
+    img: "know_me.png",
     link: "https://replit.com/@HrushikeshTawde/MarkOneDoyouknowme?embed=true",
     title: "Do you know me Quiz App",
     source: "https://github.com/Hrushikesh1430/MarkOne_Do_you_know_me",
